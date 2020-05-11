@@ -521,7 +521,7 @@ window.onload = function () {
       draw(speed);
     }).fail(() => {
       clearInterval(myInterval);
-      draw(20);
+      draw(0);
     });
   }
 
